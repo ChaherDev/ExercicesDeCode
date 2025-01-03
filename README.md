@@ -10,4 +10,4 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 
 ### Exemple attendu
 
-012, 013, 014, ..., 789
+01, 02, 03, ..., 89
