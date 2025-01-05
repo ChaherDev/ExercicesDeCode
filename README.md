@@ -9,7 +9,7 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 3. **Condition** : Les deux chiffres doivent être différents. Par exemple, `00` et `11` ne sont pas valides.
 
 ### Exemple attendu
-
+```plaintext
 01, 02, 03, ..., 89
 
 ---
