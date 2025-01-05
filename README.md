@@ -12,6 +12,8 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 
 01, 02, 03, ..., 89
 
+---
+
 ## Exercice 2 : Vérifier l’unicité et l’ordre croissant d’une combinaison
 
 ### Objectif : Développer une logique pour filtrer les combinaisons valides.
