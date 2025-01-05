@@ -28,3 +28,17 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 - isInAscendingOrder([0, 1, 2]) → true
 - isInAscendingOrder([2, 1, 0]) → false
 ```
+
+---
+
+## Exercice 3 : Générer toutes les combinaisons possibles de 3 chiffres
+
+### Objectif : Générer des combinaisons en utilisant des boucles imbriquées.
+1. Utilise trois boucles imbriquées pour générer toutes les combinaisons possibles de 3 chiffres entre 0 et 9.
+2. Affiche chaque combinaison sous forme de trois chiffres collés, par exemple 012, 013, etc.
+3. Ignore pour l’instant les conditions d’unicité et d’ordre croissant.
+
+### Exemple attendu :
+```plaintext
+000, 001, 002, ..., 999
+```
