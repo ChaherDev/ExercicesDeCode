@@ -23,10 +23,10 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 
 ### Tests suggérés :
 ```plaintext
-- isUniqueCombination([0, 1, 2]) → true
-- isUniqueCombination([0, 0, 1]) → false
-- isInAscendingOrder([0, 1, 2]) → true
-- isInAscendingOrder([2, 1, 0]) → false
+isUniqueCombination([0, 1, 2]) → true
+isUniqueCombination([0, 0, 1]) → false
+isInAscendingOrder([0, 1, 2]) → true
+isInAscendingOrder([2, 1, 0]) → false
 ```
 
 ---
@@ -42,3 +42,5 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 ```plaintext
 000, 001, 002, ..., 999
 ```
+
+---
