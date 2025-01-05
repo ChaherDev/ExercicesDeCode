@@ -11,7 +11,7 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 ### Exemple attendu
 ```plaintext
 01, 02, 03, ..., 89
-```plaintext
+```
 
 ---
 
@@ -27,3 +27,4 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 - isUniqueCombination([0, 0, 1]) → false
 - isInAscendingOrder([0, 1, 2]) → true
 - isInAscendingOrder([2, 1, 0]) → false
+```
