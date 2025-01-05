@@ -11,6 +11,7 @@ Apprendre à parcourir les chiffres et générer des combinaisons simples.
 ### Exemple attendu
 ```plaintext
 01, 02, 03, ..., 89
+```plaintext
 
 ---
 
