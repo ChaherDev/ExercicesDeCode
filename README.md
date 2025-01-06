@@ -44,3 +44,30 @@ isInAscendingOrder([2, 1, 0]) → false
 ```
 
 ---
+
+## Exercice 4 : Filtrer les combinaisons valides
+
+### Objectif : Appliquer les conditions d’unicité et d’ordre croissant aux combinaisons générées.
+1. Modifie ton programme précédent pour inclure les fonctions isUniqueCombination et isInAscendingOrder.
+2. Affiche uniquement les combinaisons qui respectent ces deux conditions.
+3. Les combinaisons doivent être formatées sous forme de chaîne de caractères et séparées par des virgules.
+
+### Exemple attendu :
+```plaintext
+012, 013, 014, ..., 789
+```
+
+---
+
+## Exercice 5 : Optimiser la génération des combinaisons
+
+### Objectif : Réduire le nombre de combinaisons générées dès le départ.
+1. Modifie ton programme pour que les boucles imbriquées génèrent uniquement des combinaisons où :
+•	Le deuxième chiffre (j) est strictement supérieur au premier (i).
+•	Le troisième chiffre (k) est strictement supérieur au deuxième (j).
+2. Vérifie que ton programme produit les mêmes résultats que l’exercice précédent, mais avec un code plus optimisé.
+
+### Exemple attendu :
+```plaintext
+012, 013, 014, ..., 789
+```
