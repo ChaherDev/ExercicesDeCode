@@ -71,3 +71,46 @@ isInAscendingOrder([2, 1, 0]) → false
 ```plaintext
 012, 013, 014, ..., 789
 ```
+
+---
+
+## Exercice 6 : Générer toutes les combinaisons possibles de deux nombres
+
+### Objectif : Générer les paires de nombres sans condition particulière.
+1. Écris un programme qui utilise deux boucles imbriquées pour générer toutes les combinaisons possibles de deux nombres entre 00 et 99.
+2. Formate chaque nombre avec deux chiffres (par exemple, 01 au lieu de 1).
+3. Affiche les paires sous forme de xx yy (par exemple 00 01, 00 02), séparées par des virgules.
+
+### Exemple attendu :
+```plaintext
+00 00, 00 01, 00 02, ..., 99 98, 99 99
+```
+
+---
+
+## Exercice 7 : Filtrer les combinaisons pour garantir l’ordre croissant
+
+Objectif : Appliquer la condition d’ordre croissant.
+1. Modifie ton programme pour afficher uniquement les combinaisons où le premier nombre est strictement inférieur au second.
+Condition : Affiche uniquement les paires a b où a < b.
+2. Les paires doivent toujours être affichées dans l’ordre croissant.
+
+### Exemple attendu :
+```plaintext
+00 01, 00 02, ..., 98 99
+```
+---
+
+## Exercice 8 : Optimiser la génération des combinaisons
+
+Objectif : Réduire les boucles pour générer uniquement des combinaisons valides dès le départ.
+1. Modifie tes boucles pour que la seconde boucle commence toujours à la valeur du premier nombre + 1.
+Astuce : Si la première boucle est sur i, fais commencer la seconde à i + 1.
+2. Formate le résultat pour qu’il respecte le format demandé : chaque paire est séparée par une virgule et un espace.
+
+Exemple attendu :
+```plaintext
+00 01, 00 02, 00 03, ..., 98 99
+```
+
+---
