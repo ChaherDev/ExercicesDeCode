@@ -114,3 +114,19 @@ Exemple attendu :
 ```
 
 ---
+
+## Exercice 9 : Générer les premiers termes de la suite de Fibonacci
+
+Objectif : Écrire un programme qui génère et affiche les premiers termes de la suite de Fibonacci.
+
+Consigne :
+
+1. Écris un programme qui affiche les termes de la suite de Fibonacci jusqu'à un certain nombre donné (par exemple, 10).
+2. La suite de Fibonacci commence par 0 et 1. Chaque terme suivant est la somme des deux termes précédents.
+3. Affiche la suite sous forme de liste, séparée par des espaces.
+
+Exemple d’exécution :
+```plaintext
+$> swift exo.swift
+0 1 1 2 3 5 8 13 21 34
+```
