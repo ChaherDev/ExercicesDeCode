@@ -1,10 +1,11 @@
 var firstNumber = 0
 var secoundNumber = 1
 var thirdNumber = 0
-var term = 2
+var term = 1
+
+print(firstNumber, terminator: " ")
 
 func fibonnacySequence() {
-    print(firstNumber, terminator: " ")
     print(secoundNumber, terminator: " ")
     thirdNumber = firstNumber + secoundNumber
     term += 1
