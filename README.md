@@ -146,7 +146,7 @@ Consigne :
 Exemple d’exécution :
 ```plaintext
 $> swift exo.swift 5
-5
+3
 ```
 
 Si l'utilisateur entre un nombre négatif
