@@ -132,3 +132,26 @@ $> swift exo.swift
 ```
 
 ---
+
+## Exercice 10 : Calculer un terme spécifique de la suite de Fibonacci
+
+Objectif : Modifier le programme précédent pour afficher uniquement le terme à une position donnée dans la suite de Fibonacci.
+
+Consigne :
+
+1. Demande à l’utilisateur de fournir un entier positif n représentant l’index du terme voulu dans la suite.
+2. Affiche uniquement le N-ème terme de la suite de Fibonacci.
+3. Si l’utilisateur entre un nombre négatif, affiche un message d’erreur.
+
+Exemple d’exécution :
+```plaintext
+$> swift exo.swift 5
+5
+```
+
+Si l'utilisateur entre un nombre négatif
+
+```plaintext
+$> swift exo.swift -2
+Erreur : l’index doit être un entier positif.
+```
