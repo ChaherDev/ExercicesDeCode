@@ -1,4 +1,4 @@
-func primeNumber(_ number: Int) -> Bool {
+func isPrimeNumber(_ number: Int) -> Bool {
     if number == 0 || number == 1 {
         return false
     } 
@@ -24,7 +24,7 @@ if CommandLine.arguments.count != 2 {
 } else if Int(CommandLine.arguments[1])! < 0 {
     print("Vous devez fournir un nombre entier positif")
 } else {
-    if primeNumber(Int(CommandLine.arguments[1])!) {
+    if isPrimeNumber(Int(CommandLine.arguments[1])!) {
         print("true")
     } else {
         print("false")
