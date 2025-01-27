@@ -34,9 +34,9 @@ func isPrimeNumber(_ number: Int) -> Bool {
 if CommandLine.arguments.count != 2 {
     print("Vous devez fournir un argument.")
 } else if Int(CommandLine.arguments[1]) == nil {
-    print("Vous devez fournir un nombre entier")
+    print("Vous devez fournir un nombre entier.")
 } else if Int(CommandLine.arguments[1])! < 0 {
-    print("Vous devez fournir un nombre entier positif")
+    print("Vous devez fournir un nombre entier positif.")
 } else {
     primeNumbers()
 }
