@@ -155,3 +155,34 @@ Si l'utilisateur entre un nombre négatif
 $> swift exo.swift -2
 Erreur : l’index doit être un entier positif.
 ```
+
+---
+
+## Exercice 11 : Identifier si un nombre est premier
+
+Créez un programme qui vérifie si un nombre donné est un nombre premier.
+Un nombre premier est un entier supérieur à 1 qui n'est divisible que par 1 et lui-même.
+
+Exemple d'exécution :
+
+```plaintext
+$> swift exo11.swift 7
+true
+$> swift exo11.swift 10
+false
+```
+
+---
+
+## Exercice 12 : Trouver tous les nombres premiers jusqu’à une limite donnée
+
+Créez un programme qui affiche tous les nombres premiers entre 2 et un nombre donné inclus.
+
+Exemple d’exécution :
+
+```plaintext
+$> swift exo12.swift 10
+2, 3, 5, 7
+```
+
+---
