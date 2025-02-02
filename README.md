@@ -216,3 +216,33 @@ $> swift exo14.swift 5 1 19 21
 (L’ordre des valeurs peut varier selon l’implémentation.)
 
 ---
+
+## Exercice 15 : Implémenter un tri simple
+
+Créez un programme qui trie deux nombres donnés en entrée. Utilisez un algorithme simple, comme la comparaison et l’échange des éléments, pour trier les nombres.
+
+Exemple d’exécution :
+
+```plaintext
+$> swift exo15.swift 5 1
+1 5
+$> swift exo15.swift 3 3
+3 3
+```
+
+---
+
+## Exercice 16 : Implémenter un tri pour un tableau de 3 nombres
+
+Créez un programme qui trie un tableau de 3 nombres en utilisant un algorithme de tri par sélection. Affichez le tableau trié à la fin.
+
+Exemple d’exécution :
+
+```plaintext
+$> swift exo16.swift 6 5 4
+4 5 6
+$> swift exo16.swift 3 1 2
+1 2 3
+```
+
+---
