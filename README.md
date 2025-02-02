@@ -201,3 +201,18 @@ $> swift exo13.swift -8 -6
 ```
 
 ---
+
+## Exercice 14 : Trouver toutes les différences absolues dans un tableau
+
+Créez un programme qui prend une liste de nombres en entrée et affiche toutes les différences absolues entre chaque paire possible.
+
+Exemple d’exécution :
+
+```plaintext
+$> swift exo14.swift 5 1 19 21
+4 14 16 18 18 2
+```
+
+(L’ordre des valeurs peut varier selon l’implémentation.)
+
+---
