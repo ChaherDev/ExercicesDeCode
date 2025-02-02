@@ -186,3 +186,18 @@ $> swift exo12.swift 10
 ```
 
 ---
+
+## Exercice 13 : Trouver la différence absolue entre deux nombres
+
+Créez un programme qui prend en entrée deux nombres et affiche leur différence absolue.
+
+Exemple d’exécution :
+
+```plaintext
+$> swift exo13.swift 5 1
+4
+$> swift exo13.swift -8 -6
+2
+```
+
+---
